@@ -2,6 +2,8 @@
 
 基于 Cloudflare Worker 的 HTTP 网关，对接 **seek.li** 仅有的两个 Mailbox OpenAPI 接口，并为 **Bitwarden 邮箱别名生成器** 提供兼容层。
 
+> **给他人使用？** 请看 [SETUP.md](./SETUP.md)，从 Fork 到 Bitwarden 配置，一步步说明。
+
 > **重要**：seek.li 不是完整的 SimpleLogin 实例，仅支持 Mailbox 检查与创建，**不能**直接填入 Bitwarden 的「自托管服务器 URL」。必须通过本 Worker 做协议转换。
 
 ## 架构说明
