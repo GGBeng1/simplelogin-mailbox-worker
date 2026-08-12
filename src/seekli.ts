@@ -60,7 +60,7 @@ export async function createMailbox(
 
   if (!response.ok) {
     const body = await response.text();
-    throw new Error(`seek.li create failed (${response.status}): ${body}`);
+    throw new Error(`seek.li create failed (${response.status}) for ${address}: ${body}`);
   }
 
   const json = (await response.json()) as { data?: { address?: string } };

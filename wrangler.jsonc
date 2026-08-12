@@ -11,6 +11,6 @@
   },
   "vars": {
     "SIMPLELOGIN_BASE_URL": "https://seek.li",
-    "DEFAULT_EMAIL_DOMAIN": "example.com"
+    "DEFAULT_EMAIL_DOMAIN": "seek.li"
   }
 }
