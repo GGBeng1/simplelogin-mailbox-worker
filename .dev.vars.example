@@ -1,0 +1,9 @@
+# seek.li OpenAPI Token（必填，Worker 调用上游接口用）
+SIMPLELOGIN_API_TOKEN=your_seekli_secret_token
+
+# 创建邮箱时使用的域名（必填，与 Bitwarden「电子邮箱域名」保持一致）
+DEFAULT_EMAIL_DOMAIN=example.com
+
+# 保护 Worker 的访问令牌（推荐）
+# Bitwarden「API 密钥」填写此值
+WORKER_API_TOKEN=your_worker_access_token

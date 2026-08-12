@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "simplelogin-mailbox-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-02-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "keep_vars": true,
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "vars": {
+    "SIMPLELOGIN_BASE_URL": "https://seek.li",
+    "DEFAULT_EMAIL_DOMAIN": "example.com"
+  }
+}
